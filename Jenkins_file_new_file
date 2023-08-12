@@ -1,0 +1,9 @@
+pipeline
+{
+agent any
+stages{
+stage('run mutliple command in same stage)
+{steps { sh 'echo Print_Hi'
+         sh 'echo print_bye' }}
+
+}}
